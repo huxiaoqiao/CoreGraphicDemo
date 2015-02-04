@@ -14,6 +14,7 @@
 		44C3E0CE1A7B19A8000D3F50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C3E0CD1A7B19A8000D3F50 /* Images.xcassets */; };
 		44C3E0D11A7B19A8000D3F50 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44C3E0CF1A7B19A8000D3F50 /* LaunchScreen.xib */; };
 		44C3E0DD1A7B19A8000D3F50 /* CoreGraphicDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C3E0DC1A7B19A8000D3F50 /* CoreGraphicDemoTests.m */; };
+		44C3E0E81A7B19F9000D3F50 /* MFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C3E0E71A7B19F9000D3F50 /* MFView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		44C3E0D61A7B19A8000D3F50 /* CoreGraphicDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreGraphicDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C3E0DB1A7B19A8000D3F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44C3E0DC1A7B19A8000D3F50 /* CoreGraphicDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreGraphicDemoTests.m; sourceTree = "<group>"; };
+		44C3E0E61A7B19F9000D3F50 /* MFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFView.h; sourceTree = "<group>"; };
+		44C3E0E71A7B19F9000D3F50 /* MFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				44C3E0C51A7B19A8000D3F50 /* AppDelegate.m */,
 				44C3E0C71A7B19A8000D3F50 /* ViewController.h */,
 				44C3E0C81A7B19A8000D3F50 /* ViewController.m */,
+				44C3E0E61A7B19F9000D3F50 /* MFView.h */,
+				44C3E0E71A7B19F9000D3F50 /* MFView.m */,
 				44C3E0CA1A7B19A8000D3F50 /* Main.storyboard */,
 				44C3E0CD1A7B19A8000D3F50 /* Images.xcassets */,
 				44C3E0CF1A7B19A8000D3F50 /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44C3E0C91A7B19A8000D3F50 /* ViewController.m in Sources */,
+				44C3E0E81A7B19F9000D3F50 /* MFView.m in Sources */,
 				44C3E0C61A7B19A8000D3F50 /* AppDelegate.m in Sources */,
 				44C3E0C31A7B19A8000D3F50 /* main.m in Sources */,
 			);

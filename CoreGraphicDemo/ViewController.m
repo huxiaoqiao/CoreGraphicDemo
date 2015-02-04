@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MFView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    MFView *view = [[MFView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    view.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:view];
 }
 
 - (void)didReceiveMemoryWarning {
